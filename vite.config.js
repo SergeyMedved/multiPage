@@ -4,7 +4,7 @@ import { resolve } from 'path';
 console.log(__dirname);
 
 export default defineConfig({
-    base: "/multiPage/",
+    base: "/",
     build: {
         rollupOptions: {
             input: {
